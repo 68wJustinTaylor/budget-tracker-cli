@@ -20,6 +20,37 @@ This project demonstrates clean architecture, persistent storage, full CRUD oper
 
 ---
 
+## Demo (Sample CLI Output)
+
+==== Budget Tracker ====
+1. Add Transaction
+2. View Summary
+3. View Category Totals
+4. List Transactions
+5. Monthly Summary
+6. Monthly Category Totals
+7. Delete Transaction
+8. Edit Transaction
+9. Exit
+
+Choose an option: 1
+Enter type (income/expense): income
+Enter category: salary
+Enter amount: 2417.83
+Enter date (YYYY-MM-DD): 2026-02-27
+
+Transaction added successfully.
+
+### Monthly Summary Example
+
+Enter month (YYYY-MM): 2026-02
+
+Income:   $4,800.00
+Expenses: $1,700.00
+Net:      $3,100.00
+
+---
+
 ## Architecture
 
 The application follow seperation of concerns:
