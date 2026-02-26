@@ -1,0 +1,16 @@
+# Compiled files
+*.class
+bin/
+
+# VS Code settings
+.vscode/
+
+# Libraries (if not needed in repo)
+lib/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local data file
+transactions.csv
