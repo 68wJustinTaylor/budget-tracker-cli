@@ -19,7 +19,7 @@ This project demonstrates clean architecture, persistent storage, full CRUD oper
 - UUID-based transaction identity
 
 ---
-
+```
 ## Demo (Sample CLI Output)
 
 ==== Budget Tracker ====
@@ -48,7 +48,7 @@ Enter month (YYYY-MM): 2026-02
 Income:   $4,800.00
 Expenses: $1,700.00
 Net:      $3,100.00
-
+```
 ---
 
 ## Architecture
